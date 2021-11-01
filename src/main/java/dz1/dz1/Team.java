@@ -24,8 +24,10 @@ public class Team extends Player {
 
 
 
+
+
     public boolean printInfo (){
-        System.out.println(people);
+        System.out.println(teamName + ":" + people);
         return true;
     }
 

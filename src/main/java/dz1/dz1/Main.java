@@ -13,9 +13,6 @@ public class Main {
 
         Team team1 = new Team("Бегуны");
 
-        // Можно и так. Через метод team.addPlayer();
-
-
 
         System.out.println(team.printInfo());
 
