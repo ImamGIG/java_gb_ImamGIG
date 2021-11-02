@@ -35,7 +35,7 @@ public class  Player {
     public String toString() {
         return "Бегун" +
                 " = " + Name + '\'' +
-                " Дистанция = " + Distance +
+                " Дистанция > " + Distance +
                 "";
     }
 

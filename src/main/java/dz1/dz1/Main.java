@@ -11,11 +11,7 @@ public class Main {
 
         Team team = new Team("Бегуны",participants1, participants2,participants3);
 
-        Team team1 = new Team("Бегуны");
-
-
         System.out.println(team.printInfo());
-
 
 
     }

@@ -6,8 +6,6 @@ public class Team extends Player {
 
     private ArrayList<Player> people = new ArrayList<>();
     private String teamName;
-    private Player player;
-
 
 
     public Team(String teamName, Player a, Player b, Player c) {
@@ -17,18 +15,12 @@ public class Team extends Player {
         this.people.add(c);
     }
 
-    public Team(String teamName) {
-        this.teamName = teamName;
-
-    }
 
 
 
-
-
-    public boolean printInfo (){
+    public String printInfo (){
         System.out.println(teamName + ":" + people);
-        return true;
+        return String.valueOf(true);
     }
 
 
